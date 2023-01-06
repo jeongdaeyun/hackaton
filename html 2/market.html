@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>쇼핑몰</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body background="e.png">
+  <style>
+  	.{
+  		padding: 0;
+  		margin: 0;
+  	}
+  	body { padding: 50px; }
+  	li { list-style: none; }
+  	.list li { position: relative; width:48%; margin:1%; float: left;}
+  	.list a {display: block; border: 1px solid #ccc; text-decoration: none; color: grey;}
+  	.list img {width:100%;}
+  	.list h2 { padding: 5px; }
+  	.list p { padding: 0 5px 5px; }
+  	.list .mark { overflow: hidden; position: absolute; left: -5px; top:-5px; width: 100px; height: 100px;}
+  	.list .mark div { width: 100px; background: skyblue; transform: rotate(-45deg); translate(-29px, -5px); text-align: center; font-size: 14px; color: #fff;}
+  	.list .mark:before { content: ""; position: absolute; left: -6px;
+  	top: 59px; border-width: 5 5px; border-style: solid; border-color:  transparent transparent cadetblue transparent;}
+  </style>
+  <ul class="list">
+  	<li>
+  		<a href="#a">
+  			<img src="a.png" alt="" class="img">
+  			<h2>책1</h2>
+  		</a>
+  	</li>
+  </ul>
+    <script src="script.js"></script>
+  </body>
+</html>
